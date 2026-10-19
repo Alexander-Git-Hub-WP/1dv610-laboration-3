@@ -1,0 +1,21 @@
+{
+  "name": "1dv610-laboration-3",
+  "version": "1.0.0",
+  "description": "TextCheck helps users understand the basic characteristics of a text by presenting useful statistics in a clear and accessible interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexander-Git-Hub-WP/1dv610-laboration-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Alexander-Git-Hub-WP/1dv610-laboration-3/issues"
+  },
+  "homepage": "https://github.com/Alexander-Git-Hub-WP/1dv610-laboration-3#readme"
+}
