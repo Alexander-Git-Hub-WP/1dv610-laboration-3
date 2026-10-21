@@ -32,14 +32,13 @@ TextCheck is intended to analyze Swedish text, including the Swedish characters 
 
 ## Installation and Usage
 
-Open the deployed application using the link in the Try TextCheck section. To run locally, follow thess steps:
+Open the deployed application using the link in the Try TextCheck section. To run locally, follow these steps:
 
 1. Clone or download this repository.
-2. Open a terminal in the project root.
-3. Start a local HTTP server.
-4. Open http://localhost:8000 in your browser.
-5. Enter text in the text area and click the "Analysera text" button to display the statistics.
-6. Click the "Rensa" button to clear the input and reset the results.
+2. Start a local HTTP server with the src directory as its root, using a tool such as VS Code Live Server or another local server solution. The application entry point is src/index.html.
+3. Open the local URL provided by the server in your browser to access the application.
+4. Enter text in the text area and click the "Analysera text" button to display the statistics.
+5. Click the "Rensa" button to clear the input and reset the results.
 
 ## Project Structure
 
