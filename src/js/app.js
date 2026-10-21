@@ -31,7 +31,7 @@ analyzeButton.addEventListener('click', () => {
     for (let i = 0; i < validationResult.errors.length; i++) {
       errorMessage += validationResult.errors[i].errorMessage + ' '
     }
-    
+
     result.textContent = errorMessage
     return
   }
@@ -51,7 +51,7 @@ analyzeButton.addEventListener('click', () => {
     'Ord per mening: ' + analyzer.getAverageWordsPerSentence(),
     'Längsta ord: ' + (analyzer.getLongestWords().join(', ') || 'Inga ord'),
     'Kortaste ord: ' + (analyzer.getShortestWords().join(', ') || 'Inga ord'),
-    'Vanligaste ord: ' + (analyzer.getMostCommonWords().join(', ') || 'Inga ord')
+    'Vanligaste ord: ' + (analyzer.getMostCommonWords().join(', ') || 'Inga ord'),
   ]
 
   // Create a p-element for each statistical row and add to the result div
