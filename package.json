@@ -6,8 +6,8 @@
     "node": ">=24.12.0"
   },
   "scripts": {
-    "dev": "vite src --open",
-    "build": "vite build src",
+    "dev": "vite --open",
+    "build": "vite build",
     "lint": "eslint ./src --cache",
     "lint:fix": "eslint ./src --cache --fix",
     "format": "prettier --write ./src",
