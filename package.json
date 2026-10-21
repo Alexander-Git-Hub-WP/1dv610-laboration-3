@@ -1,21 +1,36 @@
 {
-  "name": "1dv610-laboration-3",
+  "name": "text-check",
   "version": "1.0.0",
   "description": "TextCheck helps users understand the basic characteristics of a text by presenting useful statistics in a clear and accessible interface.",
-  "main": "index.js",
+    "engines": {
+    "node": ">=24.12.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite src --open",
+    "build": "vite build src",
+    "lint": "eslint ./src --cache",
+    "lint:fix": "eslint ./src --cache --fix",
+    "format": "prettier --write ./src",
+    "format:check": "prettier ./src --check"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Alexander-Git-Hub-WP/1dv610-laboration-3.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alexander Skogberg <as299kz@student.lnu.se>",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Alexander-Git-Hub-WP/1dv610-laboration-3/issues"
   },
-  "homepage": "https://github.com/Alexander-Git-Hub-WP/1dv610-laboration-3#readme"
+  "homepage": "https://github.com/Alexander-Git-Hub-WP/1dv610-laboration-3#readme",
+  "devDependencies": {
+    "@lnu/eslint-config": "^3.0.1",
+    "eslint": "^10.13.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.13.0",
+    "prettier": "3.9.10",
+    "vite": "^8.3.5"
+  }
 }
