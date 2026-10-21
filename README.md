@@ -27,18 +27,44 @@ TextCheck is intended to analyze Swedish text, including the Swedish characters 
 
 - JavaScript 
 - HTML
+- Node.js
+- Vite
 - CSS
 - Netlify for deployment
 
 ## Installation and Usage
 
-Open the deployed application using the link in the Try TextCheck section. To run locally, follow these steps:
+Open the deployed application using the link in the Try TextCheck section. 
 
-1. Clone or download this repository.
-2. Start a local HTTP server with the src directory as its root, using a tool such as VS Code Live Server or another local server solution. The application entry point is src/index.html.
-3. Open the local URL provided by the server in your browser to access the application.
-4. Enter text in the text area and click the "Analysera text" button to display the statistics.
-5. Click the "Rensa" button to clear the input and reset the results.
+To run locally, follow these steps:
+
+### Prerequisites
+
+* Ensure you have **Node.js** (version 24.12.0 or later) and **Git** installed on your machine and a web browser.
+
+### Setup and run 
+
+1. Clone or download the repository from GitHub: https://github.com/Alexander-Git-Hub-WP/1dv610-laboration-3.git.
+2. Open a terminal in the project root directory.
+3. Install the project dependencies:
+
+```javascript
+npm install
+```
+
+4. Start the local development server:
+
+```javascript
+npm run dev
+```
+
+5. Open the local URL displayed in the terminal in your web browser.
+
+### Usage 
+
+1. Enter text in the text area.
+2. Click the "Analysera text" button to display the statistics.
+3. Click the "Rensa" button to clear the input and reset the results.
 
 ## Project Structure
 
