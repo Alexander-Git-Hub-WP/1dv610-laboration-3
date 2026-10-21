@@ -1,32 +1,30 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="sv">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TextCheck</title>
-  <link rel="stylesheet" href="styles.css">
-  <script type="module" src="/src/js/app.js"></script>
-</head>
-<body>
-  <main>
-    <h1>TextCheck</h1>
-    <p>Skriv in en text för att analysera den.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TextCheck</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="./js/app.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>TextCheck</h1>
+      <p>Skriv in en text för att analysera den.</p>
 
-    <label for="text-input">Din text:</label>
-    <br></br>
-    <textarea id="text-input" rows="10" cols="100"
-      placeholder="Skriv eller klistra in text här..."></textarea>
+      <label for="text-input">Din text:</label>
+      <p></p>
+      <textarea id="text-input" rows="10" cols="100" placeholder="Skriv eller klistra in text här..."></textarea>
 
-    <div class="buttons">
-      <button id="analyze-button">Analysera text</button>
-      <button id="reset-button">Rensa</button>
-    </div>
+      <div class="buttons">
+        <button id="analyze-button">Analysera text</button>
+        <button id="reset-button">Rensa</button>
+      </div>
 
-    <h2>Resultat</h2>
-    <div id="result" aria-live="polite">
-      <p>Här visas resultatet:</p>
-    </div>
-  </main>
-</body>
+      <h2>Resultat</h2>
+      <div id="result" aria-live="polite">
+        <p>Här visas resultatet:</p>
+      </div>
+    </main>
+  </body>
 </html>
